@@ -1,0 +1,35 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gradle Test Task",
+            "type": "node-terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "gradle test --rerun-tasks",
+            // "preLaunchTask": "Gradle Test"
+        },
+        {
+            "name": "Gradle Build Task",
+            "type": "node-terminal",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "gradle build",
+            // "preLaunchTask": "Gradle Build"
+        },
+        {
+            "type": "node-terminal",
+            "name": "Test",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "bash scripts/test.bash",
+        },
+        {
+            "type": "node-terminal",
+            "name": "Compile",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "command": "bash scripts/compile.bash",
+        },
+    ]
+}

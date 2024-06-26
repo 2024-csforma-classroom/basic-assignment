@@ -1,0 +1,10 @@
+{
+    "workbench.startupEditor": "readme",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "jdk.runConfig.vmOptions": "-ea",
+    "java.project.referencedLibraries": [
+        "app.src.main.java",
+        "app.src.test.java",
+        "resources/**/*.jar",
+    ],
+}
