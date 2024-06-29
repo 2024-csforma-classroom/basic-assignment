@@ -1,11 +1,10 @@
 /*
- * CircleTest.java
+ * AssignmentTest.java
  *
  * Junit tests for Assignment.java.
  *
  * @author David C. Petty // http://j.mp/psb_david_petty
  */
-//ID Circle
 
 import org.junit.After;
 import org.junit.Assert;
@@ -31,7 +30,7 @@ public class AssignmentTest {
         System.out.printf("\"%s\" \u225f \"%s\"\n",
             toString, assignment.toString());
         Assert.assertEquals(String.format("\"%s\" != \"%s\"", 
-        toString, assignment.toString()),
+            toString, assignment.toString()),
             toString, assignment.toString());
     }
 }
