@@ -1,3 +1,55 @@
+######################################################################
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+*.[oa]
+*~
+
+# IDE files #
+#############
+*.bluej
+*.drjava
+*.gpj
+*.eml
+*.userlibraries
+.project
+.classpath
+
+# IDE directories #
+###################
+.settings/
+bin/
+
+# User directories #
+####################
+.git/
+.m2/
+.gradle/
+
+# Target build directories #
+############################
+target/
+build/
+out/
+
+# Compiled source #
+###################
+*.com
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.bz2
+
+# Databases #
+#############
+*.sql
+*.sqlite
+
 # Created by https://www.toptal.com/developers/gitignore/api/java,gradle,visualstudiocode,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=java,gradle,visualstudiocode,macos
 
