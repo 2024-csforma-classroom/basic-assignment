@@ -1,3 +1,6 @@
+# Makefile assisted and explained with Chat-GPT
+# https://chatgpt.com/share/c267b7d9-c9dd-4593-960f-edd2ae49cb38
+
 # Variables
 SRC_DIR = src
 TEST_DIR = test
@@ -15,7 +18,7 @@ JAVA_FLAGS = -ea
 
 # Find all .java files in the src and test directories using find
 SRC_FILES = $(shell find $(SRC_DIR) -name "*.java" |sort)
-TEST_FILES = $(shell find $(TEST_DIR) -name "*.java" | sort)
+TEST_FILES = $(shell find $(TEST_DIR) -name "*.java" |sort)
 ALL_FILES = $(SRC_FILES) $(TEST_FILES)
 
 # Convert .java file paths to .class file paths
