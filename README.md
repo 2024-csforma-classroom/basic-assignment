@@ -35,10 +35,15 @@ Files in each [Github Classroom](https://classroom.github.com/docs) project that
 | File | Description |
 | --- | --- |
 | `./src/*.java` | Assignment [Java](https://docs.oracle.com/en/java/) files are in `./src/`. Runnable code (if any) is in `Main.java` and is run by `make run`. |
-| `./test/*Suite.java` | A single-file [Java](https://docs.oracle.com/en/java/) test suite responsible for running the [Junit](https://junit.org/junit4/javadoc/latest/) assignment tests in `./test/*Test.java` is run by `make test` (if it exists). |
+| `./test/*Suite.java` | The [lexicographically](https://en.wikipedia.org/wiki/Lexicographic_order) first [Java](https://docs.oracle.com/en/java/) test suite responsible for running the [Junit](https://junit.org/junit4/javadoc/latest/) assignment tests in `./test/*Test.java` is run by `make test` (if it exists). |
 | `./test/*Test.java` | Assignment [Java](https://docs.oracle.com/en/java/) [Junit](https://junit.org/junit4/javadoc/latest/) tests in `./test/*Test.java` are run by `make test` (in the absence of `*Suite.java`). |
 
-In this example, `./src/Assignment.java` includes two methods to be tested; `./src/Main.java` has an empty `main` method; `./test/AssignmentSuite.java` exists and runs [Junit](https://junit.org/junit4/javadoc/latest/) tests in `./test/AssignmentTest.java` and `./test/OtherTest.java`; `./test/Feedback.java` is a utility used by `*Test.java`.
+In this example, 
+
+- `./src/Assignment.java` includes two methods to be tested; 
+- `./src/Main.java` has an empty `main` method; 
+- `./test/AssignmentSuite.java` exists and runs [Junit](https://junit.org/junit4/javadoc/latest/) tests in `./test/AssignmentTest.java` and `./test/OtherTest.java`; 
+- `./test/Feedback.java` is a utility used by `*Test.java`.
 
 <hr>
 
