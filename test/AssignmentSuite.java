@@ -15,7 +15,7 @@ import org.junit.runner.notification.Failure;
 public class AssignmentSuite {
     @RunWith(Suite.class)
     @Suite.SuiteClasses({
-        // Add test classes here.
+        // TODO: add test classes here.
         AssignmentTest.class,
         OtherTest.class
     })
