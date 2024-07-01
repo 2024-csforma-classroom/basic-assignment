@@ -107,3 +107,5 @@ debug:
 	$(info SRC_CLASSES=$(SRC_CLASSES))
 	$(info TEST_CLASSES=$(TEST_CLASSES))
 	$(info ALL_CLASSES=$(ALL_CLASSES))
+	$(info TestClasses=$(patsubst %.class,%,$(filter %Test.class,$(notdir $(TEST_CLASSES)))))
+	$(info TestSuite=$(patsubst %.class,%,$(filter %Suite.class,$(notdir $(TEST_CLASSES)))) (only the first is executed))
