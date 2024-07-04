@@ -29,7 +29,7 @@ ALL_CLASSES = $(SRC_CLASSES) $(TEST_CLASSES)
 # Default target
 .PHONY: all
 all: test
-	@echo "Valid make targets are: clean build run test all debug"
+	@echo "\n### Valid make targets are: clean build run test all debug"
 
 # Build target
 .PHONY: build
